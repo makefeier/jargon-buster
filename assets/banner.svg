@@ -1,40 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-label="jargon-buster banner: jargon decoded into plain talk with four risk grades">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-label="jargon-buster banner">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0c4a6e"/><stop offset="0.5" stop-color="#0f172a"/><stop offset="1" stop-color="#134e4a"/>
-    </linearGradient>
-    <linearGradient id="cy" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#2dd4bf"/>
+      <stop offset="0" stop-color="#082f49"/><stop offset="1" stop-color="#134e4a"/>
     </linearGradient>
   </defs>
-  <rect width="960" height="220" fill="url(#bg)"/>
-  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">
-    <!-- 行 1：故事（黑话 → 拆解 → 人话），整行以 y=58 为轴 -->
-    <rect x="70" y="36" width="300" height="44" rx="16" fill="#1e293b" stroke="#334155"/>
-    <text x="220" y="64" font-size="16" fill="#94a3b8" text-anchor="middle">“赋能抓手，形成闭环”</text>
-    <text x="418" y="46" font-size="11" fill="#22d3ee" text-anchor="middle">五件套拆解</text>
-    <path d="M392 58 L446 58" stroke="url(#cy)" stroke-width="4" stroke-linecap="round"/>
-    <path d="M446 58 L434 50 M446 58 L434 66" stroke="url(#cy)" stroke-width="4" stroke-linecap="round" fill="none"/>
-    <rect x="466" y="32" width="424" height="52" rx="16" fill="#134e4a" stroke="url(#cy)"/>
-    <text x="678" y="66" font-size="15" fill="#5eead4" text-anchor="middle">他为什么不说人话 · 你该追问什么</text>
-    <!-- 行 2：四类风险分级（居中均布，圆点代替 emoji） -->
-    <g font-size="13">
-      <rect x="144" y="108" width="150" height="28" rx="14" fill="#052e26" stroke="#065f46"/>
-      <circle cx="184" cy="122" r="5" fill="#34d399"/>
-      <text x="196" y="127" fill="#6ee7b7">专业压缩</text>
-      <rect x="318" y="108" width="150" height="28" rx="14" fill="#172554" stroke="#1e3a8a"/>
-      <circle cx="358" cy="122" r="5" fill="#60a5fa"/>
-      <text x="370" y="127" fill="#93c5fd">行规惯性</text>
-      <rect x="492" y="108" width="150" height="28" rx="14" fill="#451a03" stroke="#78350f"/>
-      <circle cx="532" cy="122" r="5" fill="#fbbf24"/>
-      <text x="544" y="127" fill="#fcd34d">模糊遮蔽</text>
-      <rect x="666" y="108" width="150" height="28" rx="14" fill="#450a0a" stroke="#7f1d1d"/>
-      <circle cx="706" cy="122" r="5" fill="#f87171"/>
-      <text x="718" y="127" fill="#fca5a5">主动误导</text>
+  <rect width="960" height="240" fill="url(#bg)"/>
+  <g font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" text-anchor="middle">
+    <text x="480" y="98" font-size="42" font-weight="700" fill="#f1f5f9">懂行</text>
+    <rect x="452" y="114" width="56" height="3" rx="1.5" fill="#22d3ee"/>
+    <text x="480" y="146" font-size="17" fill="#94a3b8">词表告诉你是什么，懂行告诉你为什么</text>
+    <g font-size="14">
+      <rect x="164" y="172" width="140" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#6ee7b7" stroke-opacity="0.4"/>
+      <text x="234" y="194" fill="#6ee7b7">专业压缩</text>
+      <rect x="328" y="172" width="140" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#93c5fd" stroke-opacity="0.4"/>
+      <text x="398" y="194" fill="#93c5fd">行规惯性</text>
+      <rect x="492" y="172" width="140" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#fcd34d" stroke-opacity="0.4"/>
+      <text x="562" y="194" fill="#fcd34d">模糊遮蔽</text>
+      <rect x="656" y="172" width="140" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#f87171" stroke-opacity="0.4"/>
+      <text x="726" y="194" fill="#f87171">主动误导</text>
     </g>
-    <!-- 行 3：品牌（居中） -->
-    <text x="480" y="182" font-size="40" font-weight="bold" fill="url(#cy)" text-anchor="middle">懂行 · Jargon Buster</text>
-    <text x="480" y="208" font-size="15" fill="#cbd5e1" text-anchor="middle">行业语言壁垒击穿引擎 —— 给你知识，更给你弹药</text>
-    <text x="40" y="210" font-size="11" fill="#64748b">懂行家族 · v1.0.1</text>
   </g>
+  <text x="40" y="36" font-size="12" fill="#64748b" font-family="'Segoe UI',sans-serif">jargon-buster</text>
+  <text x="930" y="222" font-size="11" fill="#475569" text-anchor="end" font-family="'Segoe UI',sans-serif">v1.0.1</text>
 </svg>
