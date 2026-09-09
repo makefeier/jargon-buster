@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-label="jargon-buster banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c4a6e"/><stop offset="0.5" stop-color="#0f172a"/><stop offset="1" stop-color="#134e4a"/>
+    </linearGradient>
+    <linearGradient id="cy" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="warn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#f87171"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="220" fill="url(#bg)"/>
+  <!-- 一句黑话被击穿成人话 -->
+  <g font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif">
+    <rect x="60" y="38" width="300" height="40" rx="18" fill="#1e293b" stroke="#334155"/>
+    <text x="80" y="64" font-size="16" fill="#94a3b8">"赋能抓手，沉淀方法论，形成闭环"</text>
+    <path d="M375 58 L405 58 L392 44 Z" fill="#334155"/>
+    <!-- 击穿箭头 -->
+    <path d="M418 58 L470 58" stroke="url(#cy)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M470 58 L458 50 M470 58 L458 66" stroke="url(#cy)" stroke-width="4" stroke-linecap="round"/>
+    <text x="424" y="46" font-size="11" fill="#22d3ee">五件套拆解</text>
+    <!-- 人话气泡 -->
+    <rect x="482" y="30" width="430" height="56" rx="18" fill="#134e4a" stroke="url(#cy)"/>
+    <text x="502" y="54" font-size="14" fill="#5eead4">他为什么不说人话 + 这话对你意味着什么</text>
+    <text x="502" y="76" font-size="14" fill="#5eead4">+ 你该追问什么</text>
+    <!-- 风险标签 -->
+    <g font-size="12" font-weight="bold">
+      <rect x="60" y="106" width="132" height="26" rx="13" fill="#065f46"/><text x="126" y="123" fill="#6ee7b7" text-anchor="middle">✅ 专业压缩</text>
+      <rect x="202" y="106" width="132" height="26" rx="13" fill="#1e3a8a"/><text x="268" y="123" fill="#93c5fd" text-anchor="middle">🔵 行规惯性</text>
+      <rect x="344" y="106" width="132" height="26" rx="13" fill="#78350f"/><text x="410" y="123" fill="#fcd34d" text-anchor="middle">🟡 模糊遮蔽</text>
+      <rect x="486" y="106" width="132" height="26" rx="13" fill="#7f1d1d"/><text x="552" y="123" fill="#fca5a5" text-anchor="middle">🔴 主动误导</text>
+    </g>
+    <text x="640" y="124" font-size="13" fill="#94a3b8">← 四类风险分级，词表项目不做这一步</text>
+    <text x="560" y="176" font-size="42" font-weight="bold" fill="url(#cy)">懂行 · Jargon Buster</text>
+    <text x="562" y="200" font-size="15" fill="#cbd5e1">行业语言壁垒击穿引擎 —— 给你知识，更给你弹药</text>
+    <text x="60" y="200" font-size="11" fill="#64748b">懂行家族 · jargon-buster v1.0.1</text>
+  </g>
+</svg>
