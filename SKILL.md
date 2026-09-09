@@ -1,6 +1,6 @@
 ---
 name: jargon-buster
-description: 懂行 · Jargon Buster：把各行各业的专业术语、行业黑话、简称缩写、公文腔、行销话术拆解成人话。五件套拆解（字面义/行业实义/风险分级/对你意味着什么/该追问什么）、四类风险标签、三模式（单点查询/整段翻译/行业速成）、双向翻译。零硬编码词表，术语现场联网查证并挂三色置信标签。
+description: 说人话、黑话、行话、术语解释、翻译成人话、这词什么意思、jargon buster 时加载。懂行 · 语言壁垒击穿引擎：把专业术语、行业黑话、公文腔、行销话术拆解成人话——五件套拆解、四类风险标签、双向翻译。零硬编码词表。
 triggers:
 - 说人话
 - 黑话
@@ -9,6 +9,10 @@ triggers:
 - 翻译成人话
 - jargon buster
 - 这词什么意思
+version: v1.0.1
+author: makefeier
+platforms: [opensquilla, hermes]
+tags: [jargon, glossary, opensquilla-skill]
 ---
 
 # 懂行 · Jargon Buster（行业语言壁垒击穿引擎 v1）
